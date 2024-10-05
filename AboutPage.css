@@ -1,0 +1,543 @@
+@font-face {
+    font-family: 'Quicksand Variable';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 300 700;
+    src: url(https://cdn.jsdelivr.net/fontsource/fonts/quicksand:vf@latest/latin-wght-normal.woff2) format('woff2-variations');
+    unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: #FB6F92;
+    --secondary-color: #FFB3C6;
+    --primary-text-color:#faedf0;
+    --secondary-text-color:#FF8FAB;
+    --black:#000f;
+}
+body{
+
+    width: 100%;
+    height: 100%;
+    background-color: #faedf0;
+    background-size: cover;
+}
+
+.container2{
+    position: absolute;
+    top: 70%;
+    left: 300px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    min-height: 200%;
+    background-color: var(--secondary-color);
+    border-radius: 25px;
+}
+.container2 div{
+    font-family: 'Quicksand Variable';
+    color: #faedf0;
+    border-radius: 18px;
+    padding: 20px 20px 20px 20px;
+    height: 250px;
+    width: 350px;
+    background: #FB6F92;
+    margin: 60px;
+}
+.class{
+    position: absolute;
+    left: -105px;
+    top: 1100px;
+    background-color: #FFB3C6;
+    width: 633%;
+    height: 20%;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+   
+    padding-left: 8%;
+    padding-right: 5%;
+    box-sizing: border-box;
+}
+
+.navBar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-left: -90px;
+    margin-top: 80px;
+    width: 200px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    text-align: left;
+}   
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 153px;
+    margin-top: 4%;
+
+}
+nav ul li a{
+    background-color: #FB6F92;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 20px;
+    border-radius: 20px;
+    transition: .8s;
+}
+
+nav ul:hover li a:not(:hover){
+
+    background-color: var(--secondary-color);
+    color: var(--primary-text-color);
+    border-color: var(--primary-color);
+    box-shadow: 1px 3px 16px var(--primary-color);
+   
+}
+.header{
+    font-family: "Anton", sans-serif;
+    position: relative;
+    top: 25px;
+    left: 190px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #faedf0;
+}
+p{
+    font-size: 15px;
+}
+
+.mainContainer{
+    margin-bottom: 20%;
+    position: relative;
+    width: 200px;
+    height: 290px;
+   
+        
+}
+.thecard1{
+    top: 150px;
+    left: -30px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.7s ease;
+    
+}
+.thecard1:hover{
+    transform: rotateY(180deg);
+}
+.thefront1 h1{
+    font-size: 20px;
+    position: relative;
+    top: 200px;
+}
+.thefront1 p{
+    position: relative;
+    top: 200px;
+    font-size: 15px;
+}
+.thefront1{
+    padding: 20px 10px 10px 10px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    width: 100%;
+    height: 100%;
+    background-image: url(jmPhoto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--secondary-color);
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    border-radius: 20px;
+    font-size: 18px;
+
+}
+.theback1 h1{
+   position: relative;
+   top: 20px;
+   font-size: 30px;
+}
+.theback1 li{
+    position: relative;
+    top: 40px;
+    font-size: 20px;
+}
+.theback1{
+    padding: 20px 10px 10px 10px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #FB6F92;
+    color: #faedf0;
+    transform: rotateY(180deg);
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    border-radius: 20px;
+    font-size: 18px;
+    
+}
+
+
+
+
+
+.thecard2{
+    top: 470px;
+    left: -30px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.7s ease;
+    
+}
+.thecard2:hover{
+    transform: rotateY(180deg);
+}
+.thefront2 h1{
+    font-size: 20px;
+    position: relative;
+    top: 200px;
+}
+.thefront2 p{
+    position: relative;
+    top: 200px;
+    font-size: 15px;
+}
+.thefront2{
+    padding: 20px 10px 10px 10px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    width: 100%;
+    height: 100%;
+    background-image: url(vincePhoto.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--secondary-color);
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    border-radius: 20px;
+    font-size: 18px;
+
+}
+.theback2 h1{
+   position: relative;
+   top: 20px;
+   font-size: 30px;
+}
+.theback2 li{
+    position: relative;
+    top: 40px;
+    font-size: 20px;
+}
+.theback2{
+    padding: 20px 10px 10px 10px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #FB6F92;
+    color: #faedf0;
+    transform: rotateY(180deg);
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    border-radius: 20px;
+    font-size: 18px;
+    
+}
+
+
+.thecard3{
+    top: 150px;
+    left: 900px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.7s ease;
+    
+}
+.thecard3:hover{
+    transform: rotateY(180deg);
+}
+.thefront3 h1{
+    font-size: 20px;
+    position: relative;
+    top: 200px;
+}
+.thefront3 p{
+    position: relative;
+    top: 200px;
+    font-size: 15px;
+}
+.thefront3{
+    padding: 20px 10px 10px 10px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    width: 100%;
+    height: 100%;
+    background-image: url(adrianPhoto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--secondary-color);
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    border-radius: 20px;
+    font-size: 18px;
+
+}
+.theback3 h1{
+   position: relative;
+   top: 20px;
+   font-size: 30px;
+}
+.theback3 li{
+    position: relative;
+    top: 40px;
+    font-size: 20px;
+}
+.theback3{
+    padding: 20px 10px 10px 10px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #FB6F92;
+    color: #faedf0;
+    transform: rotateY(180deg);
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    border-radius: 20px;
+    font-size: 18px;
+    
+}
+
+
+
+.thecard4{
+    
+    top: 470px;
+    left: 900px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.7s ease;
+    
+}
+.thecard4:hover{
+    transform: rotateY(180deg);
+}
+.thefront4 h1{
+    font-size: 20px;
+    position: relative;
+    top: 200px;
+}
+.thefront4 p{
+    position: relative;
+    top: 200px;
+    font-size: 15px;
+}
+.thefront4{
+    padding: 20px 10px 10px 10px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    width: 100%;
+    height: 100%;
+    background-image: url(rickPhoto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--secondary-color);
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    border-radius: 20px;
+    font-size: 18px;
+
+}
+.theback4 h1{
+   position: relative;
+   top: 20px;
+   font-size: 30px;
+}
+.theback4 li{
+    position: relative;
+    top: 40px;
+    font-size: 20px;
+}
+.theback4{
+    padding: 20px 10px 10px 10px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #FB6F92;
+    color: #faedf0;
+    transform: rotateY(180deg);
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    border-radius: 20px;
+    font-size: 18px;
+    
+}
+
+
+
+.thecard5{
+    
+    top: 790px;
+    left: 900px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.7s ease;
+    
+}
+.thecard5:hover{
+    transform: rotateY(180deg);
+}
+.thefront5 h1{
+    font-size: 20px;
+    position: relative;
+    top: 200px;
+}
+.thefront5 p{
+    position: relative;
+    top: 200px;
+    font-size: 15px;
+}
+.thefront5{
+    padding: 20px 10px 10px 10px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    width: 100%;
+    height: 100%;
+    background-image: url(joshuaPhoto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--secondary-color);
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    border-radius: 20px;
+    font-size: 18px;
+
+}
+.theback5 h1{
+   position: relative;
+   top: 20px;
+   font-size: 30px;
+}
+.theback5 li{
+    position: relative;
+    top: 40px;
+    font-size: 20px;
+}
+.theback5{
+    padding: 20px 10px 10px 10px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #FB6F92;
+    color: #faedf0;
+    transform: rotateY(180deg);
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    border-radius: 20px;
+    font-size: 18px;
+    
+}
+
+
+.thecard6{
+    
+    left: -30px;
+    top: 790px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.7s ease;
+    
+}
+.thecard6:hover{
+    transform: rotateY(180deg);
+}
+.thefront6 h1{
+    font-size: 20px;
+    position: relative;
+    top: 200px;
+}
+.thefront6 p{
+    position: relative;
+    top: 200px;
+    font-size: 15px;
+}
+.thefront6{
+    padding: 20px 10px 10px 10px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    width: 100%;
+    height: 100%;
+    background-image: url(gabrielPhoto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--secondary-color);
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    border-radius: 20px;
+    font-size: 18px;
+
+}
+.theback6 h1{
+   position: relative;
+   top: 20px;
+   font-size: 30px;
+}
+.theback6 li{
+    position: relative;
+    top: 40px;
+    font-size: 20px;
+}
+.theback6{
+    padding: 20px 10px 10px 10px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #FB6F92;
+    color: #faedf0;
+    transform: rotateY(180deg);
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    border-radius: 20px;
+    font-size: 18px;
+    
+}

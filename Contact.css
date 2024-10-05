@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',san-serif ;
+}
+body{
+    background-color: #faedf0;
+}
+:root{
+    --primary-color: #FB6F92;
+    --secondary-color: #FFB3C6;
+    --primary-text-color:#faedf0;
+    --secondary-text-color:#FF8FAB;
+    --black:#000f;
+    }
+.container{
+    width: 100%;
+    height: 100vh;
+    padding-left: 8%;
+    padding-right: 5%;
+    box-sizing: border-box;
+}
+.navBar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-left: -90px;
+    margin-top: 80px;
+    width: 200px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    text-align: left;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 153px;
+    margin-top: 4%;
+
+}
+nav ul li a{
+    background-color: var(--secondary-color);
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 20px;
+    border-radius: 20px;
+    transition: .8s;
+}
+
+nav ul:hover li a:not(:hover){
+   background-color: var(--secondary-text-color);
+   color: var(--primary-text-color);
+   box-shadow: 1px 2px 13px var(--primary-color);
+   
+}
+
+.container2{
+    position: relative;
+    left: 32%;
+    bottom: 450px;
+    border-radius: 20px;
+    padding: 25px 25px 25px 25px;
+    background-color: #FB6F92;    
+    width: 450px;
+    height: 600px;
+}
+h1{
+    text-align: center;
+    color: #faedf0;
+    font-family: "Anton", sans-serif;
+    font-weight: 500;
+}
+h2{
+    font-family: "Anton", sans-serif;
+    font-weight: 500;
+}
+h4{
+    font-family: "Anton", sans-serif;
+    font-weight: 500;
+}
+li{
+    font-family: "Anton", sans-serif;
+    font-weight: 100;
+}
+.div1{
+    color: #faedf0;
+    position: relative;
+    top: 20px;
+    padding: 25px 25px 25px 25px;
+    background-color: #FFB3C6;   
+    border-radius: 16px;
+    transition: 1s;
+}
+.div1:hover{
+    background-color: #faedf0;
+    color: #FF8FAB;
+    transform: scale(1.040);
+}
+
+.div2{
+    
+    color: #faedf0;
+    position: relative;
+    top: 40px;
+    padding: 25px 25px 25px 25px;
+    background-color: #FFB3C6;   
+    border-radius: 16px;
+    transition: 1s;
+}
+.div2:hover{
+    background-color: #faedf0;
+    color: #FF8FAB;
+    transform: scale(1.040);
+}

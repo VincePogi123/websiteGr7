@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #FB6F92;
+    --secondary-color: #FFB3C6;
+    --primary-text-color:#faedf0;
+    --secondary-text-color:#FF8FAB;
+    --black:#000f;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #fdedf0;
+    background-position: center;
+    background-size: cover;
+}
+
+button{
+    top: 15px;
+    left: 25px;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    background-color: #FFB3C6;
+    cursor: pointer;
+    position: relative;
+    border-radius: 12px;
+    transition: .5s;
+}
+button:hover{
+    
+    background-color: var(--primary-color);
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+    box-shadow: 1px 3px 16px var(--primary-text-color);
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    position: relative;
+    left: 400px;
+    height: 70rem;
+    width: 500px;
+    background-color: pink;
+    border-radius: 25px 25px 25px 25px;
+    padding: 10px 40px 10px 40px;
+}
+video{
+    position: relative;
+    top: -5px;
+    right: 40px;
+    background-size: cover;
+    height: 300px;
+    width: 500px;
+}
+h4{
+    color: aliceblue;
+    top: 2px;
+    bottom: 2px;
+    text-align: center;
+    position: relative;
+}
+p{
+    color: aliceblue;
+    font-size: 18px;
+    font-family:monospace;
+    top: 10px;
+    position: relative;
+}
+
+h1{
+    color: aliceblue;
+}
+.Title{
+    text-align: center;
+
+}
+.usage{
+    position: relative;
+    top: 14px;
+    text-align: center;
+    background-color: #FB6F92;
+    padding: 10px 10px 15px 10px;
+    border-radius: 25px 25px 25px 25px;
+}
+.Indgredients{
+    position: relative;
+    top: 30px;
+    text-align: center;
+    background-color: #FB6F92;
+    padding: 10px 10px 15px 10px;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.precautions{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    background-color: #FB6F92;
+    padding: 10px 10px 15px 10px;
+    border-radius: 25px 25px 25px 25px;
+}
